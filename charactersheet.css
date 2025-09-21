@@ -22,29 +22,29 @@ a:hover {
 
 .name {
   z-index: 2;
-  position: absolute;
+  position: center;
   color: #b23145;
   font-family: heading;
   font-size: 23px;
 
   text-transform: uppercase;
   width: 554px;
-  center: 95px;
+  left: 95px;
   top: 401px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Image */
 
 .pic {
   z-index: 1;
-  position: absolute;
+  position: center;
   background: url(https://github.com/EngulfedMadness/Squam.github.io/blob/main/prevmarv.jpeg?raw=true)
     center;
   background-size: cover;
   border: 2px solid #b23145;
   top: 112px;
-  center: 107px;
+  left: 107px;
   height: 266px;
   width: 160px;
 }
@@ -53,27 +53,27 @@ a:hover {
 
 .background {
   z-index: 0;
-  position: absolute;
+  position: center;
   border: 2px solid #b23145;
   background: #531026;
   width: 550px;
   height: 290px;
-  center: 95px;
+  left: 95px;
   top: 100px;
 }
 
 /* Tabs*/
 
 .tabs {
-  position: absolute;
+  position: center;
   margin: 25px 0px;
 }
 
 .tab label {
   top: 379px;
-  center: 453px;
+  left: 453px;
   float: right;
-  margin-center: 10px;
+  margin-left: 10px;
   background: #ecccd4;
   border: 2px solid #b23145;
   height: 8px;
@@ -103,9 +103,9 @@ a:hover {
 
 .content1,
 .content2 {
-  position: absolute;
+  position: center;
   top: 89px;
-  center: 283px;
+  left: 283px;
   width: 336px;
   height: 250px;
   background: #fff;
@@ -167,7 +167,7 @@ h1:before {
   position: absolute;
   top: 0%;
   width: 100%;
-  center: 0%;
+  left: 0%;
 }
 
 /* Table*/
@@ -185,7 +185,7 @@ td {
 
 td:nth-child(odd) {
   color: #b23145;
-  text-align: center;
+  text-align: left;
   font-family: heading;
   font-size: 13px;
   text-transform: uppercase;
