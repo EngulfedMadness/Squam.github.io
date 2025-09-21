@@ -65,13 +65,19 @@ a:hover {
 /* Tabs*/
 
 .tabs {
-  position: absolute;
-  margin: 25px 0px;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
 }
 
 .tab label {
-  top: 379px;
-  left: 453px;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
   float: right;
   margin-left: 10px;
   background: #ecccd4;
@@ -79,7 +85,6 @@ a:hover {
   height: 8px;
   padding: 5px;
   width: 8px;
-  position: relative;
   z-index: 10;
   -webkit-transition: all 0.5s linear;
   cursor: url(https://i.imgur.com/SAa1psh.gif), progress !important;
@@ -103,9 +108,11 @@ a:hover {
 
 .content1,
 .content2 {
-  position: center;
-  top: 89px;
-  left: 283px;
+  position: relative;
+  top: 50%;
+  bottom: -50%;
+  left: 50%;
+  right: 50%;
   width: 336px;
   height: 250px;
   background: #fff;
@@ -145,13 +152,13 @@ a:hover {
 /* Titles*/
 
 h1 {
-  position: relative;
+  position: absolute;
   text-align: center;
   margin-bottom: 6px;
 }
 
 h1 span {
-  position: relative;
+  position: absolute;
   z-index: 1;
   font-family: heading;
   color: #fff;
