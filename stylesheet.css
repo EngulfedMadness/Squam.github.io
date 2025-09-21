@@ -93,7 +93,7 @@ h2 {
   left: 6px;
   width: 200px;
   height: 200px;
-  background: url(https://github.com/EngulfedMadness/Squam.github.io/blob/main/prevmarv.jpeg?raw=true)
+  background: url(https://github.com/EngulfedMadness/Squam.github.io/blob/main/prevmarv.jpeg?raw=true);
     center / cover;
   border: solid white 7px;
   border-radius: 100%;
@@ -161,4 +161,5 @@ table td {
   font-size: 16px;
   font-weight: bold;
 }
+
 
