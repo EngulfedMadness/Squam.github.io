@@ -29,9 +29,9 @@ a:hover {
 
   text-transform: uppercase;
   width: 554px;
-  left: 95px;
-  top: 401px;
-  text-align: left;
+  left: auto;
+  top: auto;
+  text-align: center;
 }
 
 /* Image */
@@ -53,7 +53,7 @@ a:hover {
 
 .background {
   z-index: 0;
-  position: center;
+  position: relative;
   border: 2px solid #b23145;
   background: #531026;
   width: 550px;
@@ -65,7 +65,7 @@ a:hover {
 /* Tabs*/
 
 .tabs {
-  position: center;
+  position: absolute;
   margin: 25px 0px;
 }
 
